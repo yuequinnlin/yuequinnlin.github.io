@@ -6,9 +6,24 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-	test
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Total:</h1>      
+    <h2 class="total"></h2>
+  </div>
+</div>
+
+<div class="jumbotron text-center">
+  <div class="container text-center">
+	 <h3 class="spendings"></h3>
+  </div>
+  <input class="text-center amount-input" placeholder="Enter Amount">
+</div>
+
 </body>
 
 <!-- Latest compiled and minified CSS -->
@@ -19,5 +34,27 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+   var previousAmount = localStorage.getItem("total") ? localStorage.getItem("total") : 0;
+   previousAmount = parseInt(previousAmount);
+   $(".total").html("$" + previousAmount);
+   
+   $(".amount-input").focus();
+
+   $(".amount-input").on("keydown", function(ev) {
+      if (ev.keyCode === 13) {
+         var amount = parseInt($(".amount-input").val());
+         var total = previousAmount + amount;
+         localStorage.setItem("total", total);
+
+         $(".total").html("$" + total);
+
+         location.reload();
+      }
+   })
+</script>
+
+<script>
 
 </html>
