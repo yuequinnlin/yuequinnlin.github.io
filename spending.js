@@ -1,2 +1,1 @@
-var test = "test";
-$(".total").html(test);
+console.log("test");
