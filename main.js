@@ -11,7 +11,7 @@ function init() {
 function loadItems(items) {
    var list = [];
 
-   forEach(items, function(item) {
+   $.each(items, function(item) {
       console.log("see item ", item);
    });
 } 
