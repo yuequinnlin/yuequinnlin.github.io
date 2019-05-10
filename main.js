@@ -9,9 +9,8 @@ function init() {
 // take a json file
 // return a list of items to load the screen
 function loadItems(items) {
-   var list = [];
-   console.log("Quinn >>>>>>>>>>>>>>>", items);
-   $.each(items, function(item) {
-      console.log("see item ", item);
-   });
+   for (i = 0; i < items.length; i++) { 
+      console.log("Quinn >>>>>>>>>>>>>>> disc = ", items[i]);
+   }
+
 } 
