@@ -1,15 +1,17 @@
-{
-   "1": {
-      "name": "destroyer",
-      "brand": "innova",
-      "weight": "171",
-      "color": "white"
-   },
+{  
+ "items": [
+      {
+         "name": "destroyer",
+         "brand": "innova",
+         "weight": "171",
+         "color": "white"
+      },
 
-   "2": {
-      "name": "destroyer",
-      "brand": "innova",
-      "weight": "168",
-      "color": "purple"
-   }
+      {
+         "name": "destroyer",
+         "brand": "innova",
+         "weight": "168",
+         "color": "purple"
+       }
+   ]
 }
