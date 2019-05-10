@@ -8,9 +8,9 @@ function init() {
 // loadItems
 // take a json file
 // return a list of items to load the screen
-function loadItems(items) {
-   for (i = 0; i < items.length; i++) { 
-      console.log("Quinn >>>>>>>>>>>>>>> disc = ", items[i]);
+function loadItems(data) {
+   for (i = 0; i < data.discs.length; i++) { 
+      console.log("Quinn >>>>>>>>>>>>>>> disc = ", data.discs[i]);
    }
 
 } 
