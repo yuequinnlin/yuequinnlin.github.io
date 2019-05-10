@@ -1,0 +1,17 @@
+{  
+ "discs": [
+      {
+         "name": "destroyer",
+         "brand": "innova",
+         "weight": "171",
+         "color": "white"
+      },
+
+      {
+         "name": "destroyer",
+         "brand": "innova",
+         "weight": "168",
+         "color": "purple"
+       }
+   ]
+}
