@@ -10,7 +10,7 @@ function init() {
 // return a list of items to load the screen
 function loadItems(items) {
    var list = [];
-
+   console.log("Quinn >>>>>>>>>>>>>>>", items);
    $.each(items, function(item) {
       console.log("see item ", item);
    });
