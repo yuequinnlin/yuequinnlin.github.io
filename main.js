@@ -12,5 +12,4 @@ function loadItems(data) {
    for (i = 0; i < data.discs.length; i++) { 
       console.log("Quinn >>>>>>>>>>>>>>> disc = ", data.discs[i]);
    }
-
 } 

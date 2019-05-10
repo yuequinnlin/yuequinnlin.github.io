@@ -4,14 +4,16 @@
          "name": "destroyer",
          "brand": "innova",
          "weight": "171",
-         "color": "white"
+         "color": "white",
+         "plastic": "dx"
       },
 
       {
          "name": "destroyer",
          "brand": "innova",
          "weight": "168",
-         "color": "purple"
+         "color": "purple",
+         "plastic": "star"
        }
    ]
 }
