@@ -1,8 +1,17 @@
 function init() {
-   console.log("Quinn >>>>>>>>>>>>>>>")
    $.getJSON("/discs.json", function(json) {
-       console.log(json); // this will show the info it in firebug console
+       loadItems(json); // this will show the info it in firebug console
    });
-
-   var mydata = JSON.parse(data);
 }
+
+
+// loadItems
+// take a json file
+// return a list of items to load the screen
+function loadItems(items) {
+   var list = [];
+
+   forEach(items, function(item) {
+      console.log("see item ", item);
+   });
+} 
