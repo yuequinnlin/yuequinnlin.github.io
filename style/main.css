@@ -45,3 +45,7 @@ footer p {
     font-size: 3.5rem;
   }
 }
+
+.item {
+  padding-bottom: 15px;
+}
