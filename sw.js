@@ -2,6 +2,7 @@ var cacheName = 'disc-pwa';
 var filesToCache = [
   '/',
   '/sw.js',
+  '/js/main.js',
   '/index.html',
   '/style/bootstrap.css',
   '/style/main.css',
