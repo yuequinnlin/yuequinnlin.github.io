@@ -41,7 +41,7 @@ var filesToCache = [
   '/images/nova_173.jpg',
   '/images/predator_173.jpg',
   '/images/pure_174.jpg',
-  '/images/reko.png'
+  '/images/reko.png',
   '/images/reko_175.jpg',
   '/images/roadrunner_171.jpg',
   '/images/roadrunner_172.jpg',
