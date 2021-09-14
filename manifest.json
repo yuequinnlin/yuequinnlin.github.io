@@ -1,5 +1,19 @@
 {
   "name": "Quinn's Discs",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
   "short_name": "Discs",
   "lang": "en-US",
   "start_url": "/index.html",
