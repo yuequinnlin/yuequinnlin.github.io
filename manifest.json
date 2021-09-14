@@ -16,8 +16,8 @@
   ],
   "short_name": "Discs",
   "lang": "en-US",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "https://yuequinnlin.github.io",
+  "scope": "https://yuequinnlin.github.io",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
